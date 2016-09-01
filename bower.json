@@ -1,0 +1,21 @@
+{
+  "name": "learning-react",
+  "description": "learning react from scotch.io",
+  "main": "index.js",
+  "authors": [
+    "miftah.muslim <miftah.muslim@mediatrac.net>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.3.1"
+  }
+}

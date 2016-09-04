@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>tutorial react</title>
+
+		<script src="/bower_components/react/react.min.js"></script>
+		<script src="/bower_components/react/react-dom.min.js"></script>
+		<script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+	</head>
+	<body>
+		<h1>Home</h1>
+		<p>this is a home route</p>
+		<a href="/about">go to about page</a><hr>
+		<a href="/comment-page">go to comment page</a>
+
+		<div id="example"></div>
+
+		<script type="text/babel">
+			var MyComponent = React.createClass({
+				render: function(){
+					return <h1> react component </h1>;
+				}
+			});
+
+			ReactDOM.render(
+				<MyComponent/>,
+				document.getElementById('example')
+			);
+		</script>
+
+		<div id="content"></div>
+
+	</body>
+</html>
